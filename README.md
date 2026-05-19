@@ -70,6 +70,6 @@ If you find this work or code useful for your research, please cite our JASA pap
   author={Fogue Djombou, Yannick Igor and Guyot, Patrice and Sutton-Charani, Nicolas and Corn, Stéphane},
   journal={The Journal of the Acoustical Society of America},
   year={2026},
-  publisher={Acoustical Society of America}
+  publisher={The Journal of the Acoustical Society of America}
 }
 ```
