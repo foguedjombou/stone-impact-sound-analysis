@@ -61,6 +61,7 @@ Our model demonstrates that frost resistance is strongly linked to the internal 
 
 ## Authors & Citation
 Yannick Igor Fogue Djombou¹, Patrice Guyot², Nicolas Sutton-Charani², and Stéphane Corn³
+
 ¹CESI LINEACT, CESI, Villeurbanne, France ² EuroMov Digital Health in Motion, Univ Montpellier, IMT Mines Ales, France ³ LMGC, Univ Montpellier, IMT Mines Ales, CNRS, Ales, France
 
 If you find this work or code useful for your research, please cite our JASA paper:
@@ -73,3 +74,4 @@ If you find this work or code useful for your research, please cite our JASA pap
   publisher={The Journal of the Acoustical Society of America}
 }
 ```
+Contact : yifoguedjombou@cesi.fr
