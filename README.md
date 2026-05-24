@@ -1,12 +1,12 @@
 # Predictive Assessment of Tilestones Frost Resistance through Impact Sound Analysis
 
-This repository contains the source code and datasets for the acoustic analysis and predictive modeling of tilestones' frost resistance, as presented in our paper submitted to the *Journal of the Acoustical Society of America* (JASA).
+This repository contains the source code and datasets for the acoustic analysis and predictive modeling of tilestones frost resistance, as presented in our paper submitted to the *Journal of the Acoustical Society of America* (JASA).
 
 ## Project Overview
 
 When traditional roofing craftsmen select tilestones (lauzes), they hammer them and listen for a "bright tinkling" as an indicator of durability. This project objectifies this practice using:
 1. **Acoustic Preprocessing:** Isolating and cleaning the impact sound.
-2. **Feature Computing:** Extracting key audio features (RMS, spectral centroid, flatness, contrast, sound damping coefficient, etc.) using `librosa`.
+2. **Feature Computing:** Extracting key audio features (RMS, spectral centroid, flatness, contrast, sound decay rate, etc.) using `librosa`.
 3. **Statistical Analysis:** Evaluating correlations and training a classifier to predict frost resistance based on early acoustic descriptors.
 
 ---
@@ -18,9 +18,6 @@ The project directory is organized as follows:
 ```
 ├── audio/                  # Audio data directories
 │   ├── 0_raw_sound/        # Original, unedited impact sound recordings (.wav)
-│   ├── 1_mono/          # Cropped sound signals
-│   ├── 2_filtered/           # Filtered sound signals
-│   ├── 3_trim/         # Sound signals time normed
 │   └── 4_norm/  # Final preprocessed sound signals used for feature extraction
 │
 ├── data/                   # Experimental measurements
