@@ -44,8 +44,11 @@ pip install numpy pandas librosa scikit-learn matplotlib soundfile
 ```
 ## How to Run the Pipeline
 The analysis is executed in three sequential steps:
-- Step 1: Preprocessing the AudioClean and segment the raw impact recordings. This script processes files from audio/0_raw_sound/ through various stages and saves the final outputs into audio/4_norm/.Bashpython preprocessing.py
-- Step 2: Feature ExtractionCompute the audio descriptors (e.g., spectral flatness, contrast, temporal RMS, and damping coefficients) from the preprocessed audio files.Bashpython featurescomputing.py
-- Step 3: Statistical Analysis & PredictionRun the statistical analysis to evaluate feature correlations with frost resistance and train the predictive model using a leave-one-out cross-validation scheme.Bashpython statistical_analysis.py
+- Step 1: Preprocessing the Audio
+Clean and segment the raw impact recordings. This script processes files from audio/0_raw_sound/ through various stages and saves the final outputs into audio/4_norm/
+- Step 2: Feature Extraction
+Compute the audio descriptors (e.g., spectral flatness, contrast, temporal RMS, and damping coefficients) from the preprocessed audio files
+- Step 3: Statistical Analysis & Prediction
+Run the statistical analysis to evaluate feature correlations with frost resistance and train the predictive model using a leave-one-out cross-validation scheme
 
 Contact : yifoguedjombou@cesi.fr
