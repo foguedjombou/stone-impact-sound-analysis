@@ -1,11 +1,6 @@
-# stone-impact-sound-analysis
-Codebase for predictive assessment of stones frost resistance using impact sound analysis
-
 # Predictive Assessment of Tilestones Frost Resistance through Impact Sound Analysis
 
 This repository contains the source code and datasets for the acoustic analysis and predictive modeling of tilestones' frost resistance, as presented in our paper submitted to the *Journal of the Acoustical Society of America* (JASA).
-
-This project establishes a direct link between the acoustic properties of tilestones and their frost resistance using digital signal processing. It proves that structural durability can be predicted via statistical descriptors of impact sound, providing a scientific foundation to support and understand empirical methods like traditional stone hammering.
 
 ## Project Overview
 
@@ -56,22 +51,4 @@ The analysis is executed in three sequential steps:
 - Step 2: Feature ExtractionCompute the audio descriptors (e.g., spectral flatness, contrast, temporal RMS, and damping coefficients) from the preprocessed audio files.Bashpython featurescomputing.py
 - Step 3: Statistical Analysis & PredictionRun the statistical analysis to evaluate feature correlations with frost resistance and train the predictive model using a leave-one-out cross-validation scheme.Bashpython statistical_analysis.py
 
-## Key Findings Highlight
-Our model demonstrates that frost resistance is strongly linked to the internal homogeneity of the stone microstructure. Key predictive features identified include: c_std: The standard deviation of the sound damping coefficient (reflecting structural homogeneity), minimum RMS and Spectral Flatness thresholds. Mechanically, this confirms that acoustic energy dissipates through microstructural flaws, such as microcrack friction, in less resistant stones.
-
-## Authors & Citation
-Yannick Igor Fogue Djombou¹, Patrice Guyot², Nicolas Sutton-Charani², and Stéphane Corn³
-
-¹CESI LINEACT, CESI, Villeurbanne, France ² EuroMov Digital Health in Motion, Univ Montpellier, IMT Mines Ales, France ³ LMGC, Univ Montpellier, IMT Mines Ales, CNRS, Ales, France
-
-If you find this work or code useful for your research, please cite our JASA paper:
-```
-@article{fogue2026predictive,
-  title={Predictive assessment of tilestones frost resistance through impact sound analysis},
-  author={Fogue Djombou, Yannick Igor and Guyot, Patrice and Sutton-Charani, Nicolas and Corn, Stéphane},
-  journal={The Journal of the Acoustical Society of America},
-  year={2026},
-  publisher={The Journal of the Acoustical Society of America}
-}
-```
 Contact : yifoguedjombou@cesi.fr
