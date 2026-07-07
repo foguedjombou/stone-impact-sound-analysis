@@ -1,13 +1,15 @@
 # Predictive Assessment of Tilestones Frost Resistance through Impact Sound Analysis
 
-This repository contains the source code and datasets for the acoustic analysis and predictive modeling of tilestones frost resistance, as presented in our paper submitted to the *Journal of the Acoustical Society of America* (JASA).
+This repository contains the source code and datasets for our paper "Predictive assessment of tilestones frost resistance through impact sound analysis", submitted to the *Journal of the Acoustical Society of America* (JASA).
 
 ## Project Overview
 
-When traditional roofing craftsmen select tilestones (lauzes), they hammer them and listen for a "bright tinkling" as an indicator of durability. This project objectifies this practice using:
-1. **Acoustic Preprocessing:** Isolating and cleaning the impact sound.
-2. **Feature Computing:** Extracting key audio features (RMS, spectral centroid, flatness, contrast, sound decay rate, etc.) using `librosa`.
-3. **Statistical Analysis:** Evaluating correlations and training a classifier to predict frost resistance based on early acoustic descriptors.
+In traditional roofing, craftsmen select tilestones by hammering them, seeking a 'bright tinkling' as an indicator of durability. In order to assess this practice objectively, monitored impact tests were conducted in the laboratory on tilestones samples selected from limestone with varying geological characteristics. The resulting sound signals were analysed over multiple recordings per sample using some statistical audio features. Then, whilst these tilestones were subjected to freeze–thaw cycles, their mechanical integrity was monitored by probing their vibratory impulse response, which subsequently led to classify each sample as frost resistant or not. In this study, the ability of audio features to forecast the frost resistance of tilestones is investigated through interpretable statistical learning approaches. 
+
+This repository is organised as follows:
+1. **Acoustic pre-processing:** Designed to isolate the intrinsic vibratory response of the material from possible impact-related artifacts.
+2. **Features extraction:** Extracting audio features (rms, centroid, flatness, rolloff, contrast, peak frequency and sound decay rate) using `librosa`.
+3. **Statistical Analysis:** Learning and evaluation of supervised approaches. Feature importance rankings. Spearman correlation analysis.
 
 ---
 
